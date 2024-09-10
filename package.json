@@ -33,7 +33,7 @@
     "openapi-spec": "node ./dist/openapi-spec",
     "prestart": "npm run rebuild",
     "start": "node app.js",
-    "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
+    "clean": "rm -rf dist *.tsbuildinfo .eslintcache",
     "rebuild": "npm run clean && npm run build"
   },
   "repository": {
